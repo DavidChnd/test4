@@ -154,7 +154,7 @@ params:
     # title: "Custom Name"
     items:
       - job: "Stage Master 1"
-        company: "CRCA"
+        company: "Centre de recherche sur la cognition animale"
         companyUrl: "https://example.com"
         date: "Janvier - Mars 2020"
         featuredLink:
@@ -218,21 +218,21 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Master Biologie Intégrative et Changements Globaux"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
+          name: "University d'Orléans"
+          url: "https://www.univ-orleans.fr/upload/public/2022-02/Master_Agrosciences_Environnement,%20Territoires_Paysage,%20Forêt_BICG_2022_VD.pdf"
+        date: "2019 - 2021"
         GPA: "3.8 out of 5.0"
         content: |-
           Extracurricular Activities
             - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+      - title: "Licence Biologie Cellulaire et Physiologie"
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
+          name: "Université de Limoges"
+          url: "https://www.sciences.unilim.fr/sciences-de-la-vie-et-de-la-terre/biologie-cellulaire-et-physiologie/"
+        date: "2015 - 2019"
         GPA: "3.9 out of 5.0"
         content: |-
           I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
@@ -329,7 +329,7 @@ params:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    email: david.chassagnaud@gmail.com
     btnName: Mail me
 
   footer:
@@ -337,14 +337,11 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false # permet de ne pas inclure la présentation des récents posts
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/DavidChnd
+      linkedin: https://www.linkedin.com/in/davidchassagnaud/
 
   # List pages like blogs and posts
   listPages:
