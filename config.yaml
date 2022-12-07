@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "David Chassagnaud"
 theme: "hugo-profile"
 
 outputs:
@@ -24,7 +24,7 @@ markup:
 Menus:
   main:
     - identifier: blog
-      name: Blog
+      name: Analyses R
       title: Blog posts
       url: /blogs
       weight: 1
@@ -55,7 +55,7 @@ params:
   title: "David Chassagnaud"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  #favicon: "/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -318,7 +318,7 @@ params:
     socialNetworks:
       github: https://github.com/DavidChnd
       linkedin: https://www.linkedin.com/in/davidchassagnaud/
-      orcid: https://orcid.org/my-orcid?orcid=0000-0001-7996-8732
+      #orcid: https://orcid.org/my-orcid?orcid=0000-0001-7996-8732
 
   # List pages like blogs and posts
   listPages:
