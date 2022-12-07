@@ -110,25 +110,26 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "David."
+    title: "David"
     subtitle: "I build things for the web"
     content: "A passionate  app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/hero.svg
-    button:
-      enable: true
-      name: "Resume"
-      url: "#"
-      download: true
-      newPage: false
+    image: /images/IMG_2387.jpeg
+  #  button:
+   #   enable: true
+    #  name: "Resume"
+     # url: "#"
+      #download: true
+      #newPage: false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://github.com/DavidChnd
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/davidchassagnaud/
+        - icon: fa-regular fa-envelope"
+          url: "david.chassagnaud@gmail.com"
+     # customIcons:
+        
 
   # About
   about:
@@ -143,32 +144,28 @@ params:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "GitHub"
+        - "R"
+        - "Rmarkdown"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
+      - job: "Stage Master 1"
+        company: "CRCA"
         companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+        date: "Janvier - Mars 2020"
         featuredLink:
           enable: true
-          name: "View the project"
           url: "https://example.com"
         content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
-      - job: "Software Developer"
-        company: "Amazon"
+      - job: "Stage Master 2"
+        company: "Laboratoire d'écologie fonctionnelle et environnement"
         companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+        date: "Janvier - Juillet 2021"
         featuredLink:
           enable: true
           url: "https://example.com"
