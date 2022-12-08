@@ -1,7 +1,7 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
 title: "David Chassagnaud"
-theme: "hugo-profile"
+theme: hugo-profile
 
 outputs:
   home:
@@ -52,7 +52,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "David Chassagnauuuud"
+  title: "David Chassagnaud"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   #favicon: "/fav.png"
@@ -111,7 +111,7 @@ params:
     enable: true
     intro: ""
     title: "David"
-    subtitle: "Chassagnaud"
+    subtitle: "Chassagnauuuud"
     content: "Passionné par le monde du vivant..."
     image: /images/IMG_2387.jpeg
   #  button:
