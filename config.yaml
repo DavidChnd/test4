@@ -23,10 +23,10 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
+    - identifier: Analyses R
       name: Analyses R
-      title: Blog posts
-      url: /blogs
+      title: Analyses R
+      url: /Analyses R
       weight: 1
     - identifier: gallerie
       name: Gallerie
@@ -138,16 +138,17 @@ params:
     title: "A propos"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+      Ayant suivi une formation en physiologie (animale et végétale) puis en écologie. J'éprouve un fort intéret dans l'étude et la compréhension des processus biologiques. C'est pourquoi il m'est utile d'utiliser et de maitriser des outils qui me permettent de traiter et de synthétiser des données. 
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      Je traivail actuellement dans le domaine de l'écophysiologie et plus précisement je participe au projet de recherche Sycomor.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Domaines de compétence :"
       items:
         - "GitHub"
         - "R"
         - "Rmarkdown"
+        - "ggplot2"
 
   # Experience
   experience:
