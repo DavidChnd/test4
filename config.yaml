@@ -112,7 +112,7 @@ params:
     intro: ""
     title: "David"
     subtitle: "Chassagnaud"
-    content: "Passionné par le monde du vivant..."
+    content: "Page personnelle..."
     image: /images/IMG_2387.jpeg
   #  button:
    #   enable: true
@@ -128,9 +128,9 @@ params:
           url: https://www.linkedin.com/in/davidchassagnaud/
         - icon: fab fa-orcid
           url: "https://orcid.org/my-orcid?orcid=0000-0001-7996-8732  
-      customIcons:
-        - icon: fa-regular fa-envelope"
-          url: "david.chassagnaud@gmail.com"  
+      #customIcons:
+       # - icon: fa-regular fa-envelope"
+        #  url: "david.chassagnaud@gmail.com"  
 
   # About
   about:

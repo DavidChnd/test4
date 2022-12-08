@@ -126,6 +126,7 @@ package(patchwork) # Permet de combiner et d'arranger plusieurs figures sur la m
 ```{r, Enregistrement des figures, echo=TRUE, message=FALSE, warning=FALSE, results="hide", eval=FALSE}
 tiff(file="/Users/david/Desktop/Orléans/R/R_Data_these/Figures_V2/Density_famille/Density_famille_01",# Choix du format, du nom, de l'emplacement de l'enregistrement du fichier ainsi que de la taille de la figure
      width=900, height=465)
+     
 grid.arrange(pd_01, pl_01, ncol=2, nrow = 1) # Partage de la fenêtre graphique 
 dev.off()
 ```
