@@ -122,12 +122,15 @@ params:
       #newPage: false
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://github.com/DavidChnd
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/davidchassagnaud/
+        - icon: fa fa-envelope
+          url: mailto:davidchassagnaud@gmail.com
+        - icon: fab fa-github
+          url: https://github.com/DavidChnd
         - icon: fab fa-orcid
-          url: "https://orcid.org/my-orcid?orcid=0000-0001-7996-8732  
+          url: "https://orcid.org/my-orcid?orcid=0000-0001-7996-8732
+
       #customIcons:
        # - icon: fa-regular fa-envelope"
         #  url: "david.chassagnaud@gmail.com"  
@@ -282,7 +285,7 @@ params:
           - "Pin"
         #links:
           #- icon: fa fa-envelope
-          #  url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+           # url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           #- icon: fab fa-github
            # url: https://github.com/gurusabarish/hugo-profile
           #- icon: fab fa-twitter
@@ -307,7 +310,7 @@ params:
     title: "Contact"
     content: 
     email: david.chassagnaud@gmail.com
-    btnName: Envoyer un mail
+    btnName: Contactez moi
 
   footer:
     recentPosts:
