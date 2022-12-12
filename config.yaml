@@ -292,11 +292,12 @@ params:
            # url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
       - title: Presto
-        content: Ce projet...
+        content: 
+          Dans un context de changements globaux où l'augmentation de l'intensité et de la fréquence des stress mettent en danger de nombreux organismes, la pérennité des plantes ligneuses implique une meilleure compréhension de leur vulnérabilité et de leur capacité adaptative. L'accès à une caractérisation haut-débit de la réponse des plantes ligneuses à ces stress est donc un enjeu majeur. Au travers de ce projet, sera étudié le potentiel de la  spectrométrie proche infra-rouge pour estimer des caractères complexes liés à la réponse des arbres et de la vigne à des stress. La spectrométrie proche infra-rouge est une méthode d'analyse rapide qui présente l'intérêt d'augmenter l'effort d'échantillonnage pour des traits complexes à mesurer mais aussi de permettre la prédiction de la réponse à un stress avant l'expression des symptômes. L'éventail des stress des stress étudiés dans le projet couvre principalement la vulnérabilité aux stress hydriques et aux bio-agresseurs. Le projet ambitionne d'être à l'initiative d'un outil opérationnel pour les programmes d'amélioration des plantes ligneuses, la gestion des écosystèmes (forestiers, alluviaux) et la viticulture.
         image: /images/projects/converter.jpg
         featured:
           name: Voir en détail
-          link: https://django-converter.herokuapp.com
+          link: ARD_SyCoMore_Dossier_complet.html
         badges:
           - "NIRS"
           - "Prédiction"
