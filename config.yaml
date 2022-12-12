@@ -28,8 +28,8 @@ Menus:
       title: Analyses R
       url: /Analyses R
       weight: 1
-    - identifier: gallerie
-      name: Gallerie
+    - identifier: Galerie
+      name: Galerie
       title: Blog posts
       url: /gallery
       weight: 2
@@ -319,7 +319,7 @@ params:
     socialNetworks:
       github: https://github.com/DavidChnd
       linkedin: https://www.linkedin.com/in/davidchassagnaud/
-      #orcid: https://orcid.org/my-orcid?orcid=0000-0001-7996-8732
+      orcid: https://orcid.org/my-orcid?orcid=0000-0001-7996-8732
 
   # List pages like blogs and posts
   listPages:
