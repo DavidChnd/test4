@@ -13,6 +13,7 @@ title: Aide moimoire R
 toc: null
 ---
 
+{{< embed-pdf url=".//Users/david/hugo-embed-pdf-shortcode/static/js/pdf-js/build/Concurrent time course of xylem hydraulic dysfunction and non-structural carbohydrates under contrasting water deficits and nitrogen supplies in poplar.pdf" >}}
 ## 
 
 Ce script a pour but de fournir une aide à l'utilisation de R.

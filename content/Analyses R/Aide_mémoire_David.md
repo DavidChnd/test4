@@ -1,7 +1,7 @@
 ---
 title: "Aide mémoire"
 author : "David Chassagnaud"
-date: "`r Sys.Date()`"
+date: "2022-12-12"
 output: 
   rmdformats::downcute:
     toc : 2
@@ -9,14 +9,12 @@ output:
     downcute_theme: "default"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(cache = TRUE)
-```
+
 
 # Packages
 
-```{r Packages, echo=TRUE, message=FALSE, warning=FALSE, cache=TRUE, eval=FALSE}
 
+```r
 library(ggplot2)
 library(ggrepel)
 library(reshape2)
@@ -48,7 +46,8 @@ esquisse::esquisser(your_data) # Ouvre la fenêtre graphique avec le JDD sélect
 
 # JDD et préparation
 
-```{r JDD et préparation, echo=TRUE, message=FALSE, warning=FALSE, results="hide", eval=FALSE}
+
+```r
 your_data <- read.table("/Users/david/Desktop/R_Lica/Data/lica_R.txt", header=T,dec=",") # Choix du chemin d'accès et import JDD
 your_data = subset(your_data, VA =="VA_name") # Subdivision de notre jeu de données en fonction d'une autre VA 
 
@@ -60,19 +59,22 @@ str(your_data) # Informations sur le JDD
 
 ## GeomBar
 
-```{r GeomBar sur JDD, echo=TRUE, message=FALSE, warning=FALSE, results="hide", eval=FALSE}
+
+```r
 # Voir script Lica
 ```
 
 ## Dotplot
 
-```{r Dotplot sur JDD, echo=TRUE, message=FALSE, warning=FALSE, results="hide", eval=FALSE}
+
+```r
 # Voir script dotplot
 ```
 
 ## Commandes pratiques
 
-```{r Commandes pratiques, echo=TRUE, message=FALSE, warning=FALSE, results="hide", eval=FALSE}
+
+```r
 + theme(legend.background = element_rect(fill="transparent")) # Arrière plan de la légende  transparent
   
 "\n" # Retour à la ligne dans un titre, sous titre ou autre
@@ -89,7 +91,8 @@ theme(plot.title = element_text(hjust = 0.5, color="#FF0000", size=14),
 
 ## Disposition des figures
 
-```{r Disposition des figures, echo=TRUE, message=FALSE, warning=FALSE, results="hide", eval=FALSE}
+
+```r
 par(mfrow = c(1,1))
 
 fig_tot <- ggarrange(b,c, # Méthode avec ggarrange
@@ -123,10 +126,10 @@ package(patchwork) # Permet de combiner et d'arranger plusieurs figures sur la m
 
 ## Enregistrement des figures
 
-```{r, Enregistrement des figures, echo=TRUE, message=FALSE, warning=FALSE, results="hide", eval=FALSE}
+
+```r
 tiff(file="/Users/david/Desktop/Orléans/R/R_Data_these/Figures_V2/Density_famille/Density_famille_01",# Choix du format, du nom, de l'emplacement de l'enregistrement du fichier ainsi que de la taille de la figure
      width=900, height=465)
-     
 grid.arrange(pd_01, pl_01, ncol=2, nrow = 1) # Partage de la fenêtre graphique 
 dev.off()
 ```
@@ -135,7 +138,8 @@ dev.off()
 
 ## Calcul sur JDD
 
-```{r Calcul sur JDD, echo=TRUE, message=FALSE, warning=FALSE, results="hide", eval=FALSE}
+
+```r
 # Permet d'avoir la moyenne, l'écart type, l'erreur standard des conditions d'une VA dans un JDD
 a <- your_data %>%
   group_by(VA) %>% # conditions / subsets
@@ -146,12 +150,12 @@ a
 
 test <- tapply(your_data$VA, your_data$VA2, mean) # Permet de renvoyer la moyenne d'une condition pour toutes les VA de notre JDD
 test
-
 ```
 
 ## Boucle For
 
-```{r Boucle For, echo=TRUE, message=FALSE, warning=FALSE, results="hide", eval=FALSE}
+
+```r
 #(Voir script R_Lica si pb)
 subseted_your_data = 0
 plot_your_data = 0
@@ -186,7 +190,8 @@ for(i in unique (your_data$VA)) {     # Boucle for
 
 ## Tests statistiques
 
-```{r Tests statistiques, echo=TRUE, message=FALSE, warning=FALSE, results="hide", eval=FALSE}
+
+```r
 shapiro.test() # Permet de vérifier la normalité des données
 
 wilcox.test()
@@ -196,7 +201,8 @@ res.kruskal
 
 # Autre
 
-```{r, Autre, echo=TRUE, message=FALSE, warning=FALSE, results="hide", eval=FALSE}
+
+```r
 == # Pour annoter figure avec symbol =
   
 <br> # Saut de ligne 
@@ -213,7 +219,8 @@ Go to [header](#header)
 "\n" # retour à la ligne
 ```
 
-```{r, Rmarkdown, echo=TRUE, message=FALSE, warning=FALSE, results="hide", eval=FALSE}
+
+```r
 # Haut de page -------------------
 ---
 title: "Analyse de spectres \nMélèze Projet Presto"

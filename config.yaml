@@ -23,16 +23,22 @@ markup:
 
 Menus:
   main:
-    - identifier: Analyses R
-      name: Analyses R
-      title: Analyses R
-      url: /Analyses R
-      weight: 1
     - identifier: Galerie
       name: Galerie
       title: Blog posts
       url: /gallery
+      weight: 1
+    - identifier: Analyses R
+      name: ◇ Analyses R
+      title: Analyses R
+      url: /Analyses R
       weight: 2
+    - identifier: Publications
+      name: ◇ Publications
+      title: Publications
+      url: /Publications
+      weight: 3
+
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -100,12 +106,12 @@ params:
     disableSearch: true
     menus:
       disableAbout: false
-      disableExperience: false
+      disableExperience: true
       disableEducation: false
       disableProjects: false
       disableAchievements: false
       disableContact: false
-
+      disableCV: false
   # Hero
   hero:
     enable: true
