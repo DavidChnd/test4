@@ -211,24 +211,33 @@ params:
           - Lead backend developer for a product.
           - Created a frontend design for a product.
 
-      - job: "Laboratoire Ecologie Fonctionnelle et Environnement"
-        company: "Stage Master 2"
+      - job: "Stage Master 2"
+        company: "Laboratoire Ecologie Fonctionnelle et Environnement"
         companyUrl: "https://www.eco.omp.eu"
         date: "Janvier - Mars 2020"
         featuredLink:
-          enable: true
+          enable: false
           url: "https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=gWcayQyUDBGOM&launchParam=path%3D%252FDavid%2520Chassagnaud%252FPerso%252FRapport%2520final%2520M2%2520David%2520Chassagnaud.pdf"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: |
+          En suivant [ce lien,](https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=gWcayQyUDBGOM&launchParam=path%3D%252FDavid%2520Chassagnaud%252FPerso%252FPoster%2520final%2520M1%2520David%2520Chassagnaud.pdf) vous pourrez accèder au rapport scientifique que j'ai réalisé dans le cadre de mon stage de Master 2.
 
-      - job: "Centre de recherche sur la cognition animale"
-        company: "Stage Master 1"
+          - Ecotoxicologie
+          - Bioaccumulation
+          - Bioindicateur
+          
+      - job: "Stage Master 1 "
+        company: "Centre de recherche sur la cognition animale - CNRS"
         companyUrl: "https://crca.cbi-toulouse.fr"
         date: "Janvier - Mars 2020"
         featuredLink:
           enable: false # permet de rajouter un lien
           url: "https://crca.cbi-toulouse.fr"
-        content: "En suivant [ce lien](https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=gWcayQyUDBGOM&launchParam=path%3D%252FDavid%2520Chassagnaud%252FPerso%252FPoster%2520final%2520M1%2520David%2520Chassagnaud.pdf) mon rapport scientifique que j'ai pu réalisé dans le cadre de mon stage de Master 2"
-
+        content: |
+          En suivant [ce lien,](https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=D0joFtOK9Upyo&launchParam=path%3D%252FDavid%2520Chassagnaud%252FPerso%252FPoster%2520final%2520M1%2520David%2520Chassagnaud.pdf) vous pourrez accèder au poster scientifique que j'ai réalisé dans le cadre de mon stage de Master 1.
+          
+          - Ethologie
+          - Blob
+           
   # Education
   education:
     enable: true
