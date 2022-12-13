@@ -1,19 +1,12 @@
 ---
-author: Gurusabarish
-date: "2021-04-03T22:53:58+05:30"
-description: ""
+title: "Galerie d'images"
+date: 
 draft: false
-image: /images/post.jpg
-tags:
-- Emoji support
-- Sample
-- example
-title: Emoji Support
-toc: null
+description: ""
+layout: "gallery"
 ---
 
 
-file:///Users/david/Desktop/Orléans/R/Aide_memoire/Aide_mémoire_David/Aide_mémoire_David.html
-
+<img src="/Users/david/Desktop/test4/static/images/test.png"
 
 

@@ -147,7 +147,7 @@ params:
     title: "A propos"
     image: "/images/me.png"
     content: |-
-      Ayant suivi une formation en physiologie (animale et végétale) puis en écologie. J'éprouve un fort intéret dans l'étude et la compréhension des processus biologiques. C'est pourquoi il m'est utile d'utiliser et de maitriser des outils qui me permettent de traiter et de synthétiser des données. 
+      Ayant suivi une formation en physiologie (animale et végétale) puis en écologie, j'éprouve un fort intéret dans l'étude et la compréhension des processus biologiques. C'est pourquoi il m'est utile d'utiliser et de maitriser des outils qui me permettent de traiter et de synthétiser des données. 
 
       Je traivail actuellement dans le domaine de l'écophysiologie et plus précisement je participe au projet de recherche Sycomor.
     skills:
@@ -159,7 +159,24 @@ params:
         - "Rmarkdown"
         - "ggplot2"
 
-  # Experience
+
+# Expérience
+  experience:
+    enable: true
+    title: "Exprérience"
+    index: false
+    items:
+      - title: "Master Biologie Intégrative et Changements Globaux"
+        school:
+          name: "University d'Orléans"
+          url: "https://www.univ-orleans.fr/upload/public/2022-02/Master_Agrosciences_Environnement,%20Territoires_Paysage,%20Forêt_BICG_2022_VD.pdf"
+        date: "2019 - 2021"
+        GPA: "3.8 out of 5.0"
+        content: |-
+          Extracurricular Activities
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita a
+ 
   experience:
     enable: true
     title: "Expérience"
@@ -229,6 +246,12 @@ params:
           Extracurricular Activities
             - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+              # Education
+  education:
+    enable: true
+    title: "lllll"
+    index: false
+    items:
       - title: "Licence Biologie Cellulaire et Physiologie"
         school:
           name: "Université de Limoges"
