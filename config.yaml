@@ -106,7 +106,7 @@ params:
     disableSearch: true
     menus:
       disableAbout: false
-      disableExperience: true
+      disableExperience: false
       disableEducation: false
       disableProjects: false
       disableAchievements: false
@@ -120,12 +120,12 @@ params:
     subtitle: "Chassagnaud"
     content: "Page personnelle..."
     image: /images/IMG_2387.jpeg
-  #  button:
-   #   enable: true
-    #  name: "Resume"
-     # url: "#"
-      #download: true
-      #newPage: false
+    #button:
+    #enable: true
+    #name: "Resume"
+    #url: "#"
+    #download: true
+    newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
@@ -216,8 +216,8 @@ params:
         companyUrl: "https://www.eco.omp.eu"
         date: "Janvier - Mars 2020"
         featuredLink:
-          enable: false # permet de rajouter un lien
-          url: "https://www.eco.omp.eu"
+          enable: true
+          url: "https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=gWcayQyUDBGOM&launchParam=path%3D%252FDavid%2520Chassagnaud%252FPerso%252FRapport%2520final%2520M2%2520David%2520Chassagnaud.pdf"
         content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
       - job: "Centre de recherche sur la cognition animale"
@@ -227,8 +227,7 @@ params:
         featuredLink:
           enable: false # permet de rajouter un lien
           url: "https://crca.cbi-toulouse.fr"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
+        content: "En suivant [ce lien](https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=gWcayQyUDBGOM&launchParam=path%3D%252FDavid%2520Chassagnaud%252FPerso%252FPoster%2520final%2520M1%2520David%2520Chassagnaud.pdf) mon rapport scientifique que j'ai pu réalisé dans le cadre de mon stage de Master 2"
 
   # Education
   education:
@@ -272,27 +271,6 @@ params:
           enable: false
           url: "https://example.com"
 
-  # Achievements
-  achievements:
-    enable: true
-    title: "Réalisations"
-    items:
-      - title: Expérimentation Lica ...
-        content: Test HK1a / HK1b.
-        url: https://example.com
-        
-      - title: Presto
-        content: Developed a product using Artificial Intelligence.
-        
-      - title: Rapport stage Master 2
-        content: Etude de Xerolycosa nemoralis comme potentiel potentiel bioindicateur de pollution minière.
-        url: https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=22s9A86kj8nok&launchParam=path%3D%252FDavid%2520Chassagnaud%252FPerso%252FRapport%2520final%2520M2%2520David%2520Chassagnaud.pdf
-        
-      - title: Poster Stage Master 1
-        content: Etude comportementale chez Physarum polycephalum
-        url: https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=w4EqXv1PLwJ.M&launchParam=path%3D%252F1%2520ARCHE%2520-%2520Partage%252FNAS_Guide_installation.pdf
-        
-        
 
   # projects
   projects:
@@ -330,6 +308,46 @@ params:
         #links:
          # - icon: fab fa-github
           #  url: https://github.com/gurusabarish/converter
+          
+    title: "balabla"
+    items:
+      - title: Sycomore
+        content: Ce projet...
+        image: /images/projects/tout-savoir-sur-la-foret.jpg
+        featured:
+          name: Voir en détail
+          link: https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=22s9A86kj8nok&launchParam=path%3D%252FDavid%2520Chassagnaud%252FIE%252FARD_SyCoMore_Dossier_complet.pdf
+        badges:
+          - "Ecophysiologie"
+          - "Test de provenance"
+          - "Pin"
+        #links:
+          #- icon: fa fa-envelope
+           # url: mailto:?subject=Hugo%20Profile%20Temp
+          
+    # achivements
+  achivements:
+    enable: true
+    title: "Réalisations"
+    items:
+      - title: Sycomore
+        content: Ce projet...
+        image: /images/projects/tout-savoir-sur-la-foret.jpg
+        featured:
+          name: Voir en détail
+          link: https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=22s9A86kj8nok&launchParam=path%3D%252FDavid%2520Chassagnaud%252FIE%252FARD_SyCoMore_Dossier_complet.pdf
+        badges:
+          - "Ecophysiologie"
+          - "Test de provenance"
+          - "Pin"
+        #links:
+          #- icon: fa fa-envelope
+           # url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          #- icon: fab fa-github
+           # url: https://github.com/gurusabarish/hugo-profile
+          #- icon: fab fa-twitter
+           # url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
 
   #Contact
   contact:
