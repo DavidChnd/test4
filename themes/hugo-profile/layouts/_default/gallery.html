@@ -3,7 +3,15 @@
 <script src="https://kit.fontawesome.com/6a1b01459d.js" crossorigin="anonymous"></script>
 <!-- <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/list.css" media="all"> -->
 {{ end }}
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6C96QRKFXK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-6C96QRKFXK');
+</script>
 {{ define "title" }}
 {{.Title }} | {{ .Site.Title }}
 {{ end }}

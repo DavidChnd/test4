@@ -280,16 +280,19 @@ params:
       - title: Expérimentation Lica ...
         content: Test HK1a / HK1b.
         url: https://example.com
+        
       - title: Presto
         content: Developed a product using Artificial Intelligence.
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+        
+      - title: Rapport stage Master 2
+        content: Etude de Xerolycosa nemoralis comme potentiel potentiel bioindicateur de pollution minière.
+        url: https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=22s9A86kj8nok&launchParam=path%3D%252FDavid%2520Chassagnaud%252FPerso%252FRapport%2520final%2520M2%2520David%2520Chassagnaud.pdf
+        
+      - title: Poster Stage Master 1
+        content: Etude comportementale chez Physarum polycephalum
+        url: https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=w4EqXv1PLwJ.M&launchParam=path%3D%252F1%2520ARCHE%2520-%2520Partage%252FNAS_Guide_installation.pdf
+        
+        
 
   # projects
   projects:
@@ -301,7 +304,7 @@ params:
         image: /images/projects/tout-savoir-sur-la-foret.jpg
         featured:
           name: Voir en détail
-          link: http://gofile.me/72B3p/lcyE1EgRQ
+          link: https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=22s9A86kj8nok&launchParam=path%3D%252FDavid%2520Chassagnaud%252FIE%252FARD_SyCoMore_Dossier_complet.pdf
         badges:
           - "Ecophysiologie"
           - "Test de provenance"
