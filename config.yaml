@@ -272,7 +272,7 @@ params:
         featuredLink:
           enable: true
           name: Accéder à mon rapport de M2
-          url: ""
+          url: "https://drive.google.com/file/d/14nUH-PPJON6Z8J8r2HEWdC9SjgvbESuI/view?usp=sharing"
           
       - title: "Stage Master 1"
         school:
@@ -290,7 +290,7 @@ params:
         featuredLink:
           enable: true
           name: Accéder à mon poster de M1
-          url: ""
+          url: "https://drive.google.com/file/d/14nUH-PPJON6Z8J8r2HEWdC9SjgvbESuI/view?usp=sharing"
 
 
 
