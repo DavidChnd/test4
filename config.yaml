@@ -163,122 +163,134 @@ params:
 # Expérience
   experience:
     enable: true
-    title: "Exprérience"
-    index: false
+    title: "Scolarité"
     items:
-      - title: "Master Biologie Intégrative et Changements Globaux"
-        school:
-          name: "University d'Orléans"
-          url: "https://www.univ-orleans.fr/upload/public/2022-02/Master_Agrosciences_Environnement,%20Territoires_Paysage,%20Forêt_BICG_2022_VD.pdf"
-        date: "2019 - 2021"
-        GPA: "3.8 out of 5.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita a
- 
-  experience:
-    enable: true
-    title: "Expérience"
-    items:
-      - job: "Laboratoire de Biologie des Ligneux et des Grandes Cultures"
-        company: "Ingénieur d'études"
-        companyUrl: "https://www.univ-orleans.fr/fr/lblgc"
-        date: "Janvier 2022- Décembre 2023"
+      - job: "Université d'Orléans"
+        company: "Master Agrosciences parcours Biologie Intégrative et Changements Globaux"
+        companyUrl: "https://www.univ-orleans.fr/upload/public/2022-02/Master_Agrosciences_Environnement,%20Territoires_Paysage,%20Forêt_BICG_2022_VD.pdf"
+        date: "2019- 2021"
         info:
           enable: false
         featuredLink:
           enable: false
-          url: "https://www.univ-orleans.fr/fr/lblgc"
+          url: ""
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          Ce master m'a permit d'acquérir des compétences dans le domaine ...
           
-      - job: "Laboratoire de Biologie des Ligneux et des Grandes Cultures"
-        company: "Assistant Ingénieur"
-        companyUrl: "https://www.univ-orleans.fr/fr/lblgc"
-        date: "Septembre - Décembre 2022"
+          - Biologie des population
+          - Statistiques
+          
+      - job: "Université Limoges"
+        company: "Licence Sciences de la Vie et de la Santé - parcours Biologie Cellulaire et Physiologie"
+        companyUrl: "https://www.sciences.unilim.fr/sciences-de-la-vie-et-de-la-terre/biologie-cellulaire-et-physiologie/"
+        date: "2015 - 2019"
         info:
           enable: false
         featuredLink:
           enable: false
-          url: "https://www.univ-orleans.fr/fr/lblgc"
+          url: ""
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          Cette formation ma permit d'acquerir de solides bases en biologie et plus particulièrement en physiologie animale végétale.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          - Biologie moléculaire
+          - Génétique
 
-      - job: "Stage Master 2"
-        company: "Laboratoire Ecologie Fonctionnelle et Environnement"
-        companyUrl: "https://www.eco.omp.eu"
-        date: "Janvier - Mars 2020"
+      - job: "Lycée August Renoir - Limoges"
+        company: "Baccalauréat Scientifique"
+        companyUrl: ""
+        info:
+          enable: false
+        date: "2015"
         featuredLink:
           enable: false
-          url: "https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=gWcayQyUDBGOM&launchParam=path%3D%252FDavid%2520Chassagnaud%252FPerso%252FRapport%2520final%2520M2%2520David%2520Chassagnaud.pdf"
+          url: ""
         content: |
-          En suivant [ce lien,](https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=gWcayQyUDBGOM&launchParam=path%3D%252FDavid%2520Chassagnaud%252FPerso%252FPoster%2520final%2520M1%2520David%2520Chassagnaud.pdf) vous pourrez accèder au rapport scientifique que j'ai réalisé dans le cadre de mon stage de Master 2.
-
-          - Ecotoxicologie
-          - Bioaccumulation
-          - Bioindicateur
+          Option Sciences de la Vie et de la Terre
           
-      - job: "Stage Master 1 "
-        company: "Centre de recherche sur la cognition animale - CNRS"
-        companyUrl: "https://crca.cbi-toulouse.fr"
-        date: "Janvier - Mars 2020"
-        featuredLink:
-          enable: false # permet de rajouter un lien
-          url: "https://crca.cbi-toulouse.fr"
-        content: |
-          En suivant [ce lien,](https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=D0joFtOK9Upyo&launchParam=path%3D%252FDavid%2520Chassagnaud%252FPerso%252FPoster%2520final%2520M1%2520David%2520Chassagnaud.pdf) vous pourrez accèder au poster scientifique que j'ai réalisé dans le cadre de mon stage de Master 1.
-          
-          - Ethologie
-          - Blob
-           
   # Education
   education:
     enable: true
-    title: "Scolarité"
+    title: "Expérience"
     index: false
     items:
-      - title: "Master Biologie Intégrative et Changements Globaux"
+      - title: "Ingénieur d'études"
         school:
-          name: "University d'Orléans"
-          url: "https://www.univ-orleans.fr/upload/public/2022-02/Master_Agrosciences_Environnement,%20Territoires_Paysage,%20Forêt_BICG_2022_VD.pdf"
-        date: "2019 - 2021"
-        GPA: "3.8 out of 5.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Licence Biologie Cellulaire et Physiologie"
-        school:
-          name: "Université de Limoges"
-          url: "https://www.sciences.unilim.fr/sciences-de-la-vie-et-de-la-terre/biologie-cellulaire-et-physiologie/"
-        date: "2015 - 2019"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          name: "Laboratoire de Biologie des Ligneux et des Grandes Cultures"
+          url: "https://www.univ-orleans.fr/fr/lblgc"
+        date: "CDD : Janvier 2022 - Décembre 2023"
+        Lieu : "Orléans - France"
+        content: |
+          Je travail actuellement au Laboratoire de Biologie des Ligneux et des Grandes Cultures au sein de l'équipe [Arbres et Réponses aux Contraintes Hydriques et Environnementales - ARCHE](https://www.univ-orleans.fr/fr/lblgc/equipes/arbres-et-reponses-aux-contraintes-hydriques-et-environnementales) en tant qu'ingénieur d'études dans le cadre tu projet de recherche Sycomore. 
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "Lycée August Renoir Limoges"
-        school:
-          name: "Baccalauréat spécialité Sciences"
-          url: ""
+          - Test de provenance.
+          - Pin.
+          
+          Activities annexes : 
+          
+          - Suivi d'une expérimentation en conditions de sécheresse.
+          - Formation au Li-6400 / Li-6800 
         featuredLink:
           enable: false
           url: "https://example.com"
+
+      - title: "Assistant Ingénieur"
+        school:
+          name: "Laboratoire de Biologie des Ligneux et des Grandes Cultures"
+          url: "https://www.univ-orleans.fr/fr/lblgc"
+        date: "CDD : Septembre - Décembre 2022"
+        Lieu : "Orléans - France"
+        content: |
+          Dans le cadre du projet de recherche Presto j'ai mené des expérimentations...
+          
+          - Spectrométrie infrarouge.
+          - Modèles de prédiction
+
+        featuredLink:
+          enable: true
+          name: "Mon poster"
+          url: "https://example.com"
+          
+      - title: "Stage Master 2"
+        school:
+          name: "Laboratoire d'Ecologie Fonctionelle et Environnement"
+          url: "https://www.eco.omp.eu"
+        date: "Janvier - Juillet 2021"
+        Lieu : "Toulouse - France"
+        content: |
+          Mon sujet de stage portait sur l'étude Xerolycosa nemoralis comme potentiel bio-indicateur de la pollution héritée à proximité d’une ancienne mine d’Argent dans les Pyrénées françaises.
+          
+          Les différents objectifs étaitent de déterminer les concentrations de contaminants potentiels : dans le sol, la végétation et les araignées. Évaluer d’éventuelles différences dans les niveaux de contamination entre les sexes et le stade de développement. Enfin, étudier une différence potentielle dans l’accumulation des contaminants au cours de la saison (printemps, début d’été, fin d’été-automne).
+
+
+          - Ecotoxycologie
+          - Bio-indicateur
+          
+        featuredLink:
+          enable: true
+          name: Accéder à mon rapport de M2
+          url: ""
+          
+      - title: "Stage Master 1"
+        school:
+          name: "Centre de recherche sur la cognition animale - CNRS"
+          url: "https://crca.cbi-toulouse.fr"
+        date: "Janvier - Mars 2020"
+        Lieu : "Toulouse - France"
+        content: |
+          Étude comportementale de Physarum polycephalum (« Blob »).
+          
+          Objectif : Évaluer la prise de décision chez le blob dans différents contextes.
+          
+          - Ethologie
+          - Blob
+        featuredLink:
+          enable: true
+          name: Accéder à mon poster de M1
+          url: ""
+
+
+
+
 
 
   # projects
@@ -318,7 +330,7 @@ params:
          # - icon: fab fa-github
           #  url: https://github.com/gurusabarish/converter
           
-    title: "balabla"
+    title: "Projets"
     items:
       - title: Sycomore
         content: Ce projet...
