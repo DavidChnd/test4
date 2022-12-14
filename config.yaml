@@ -145,15 +145,19 @@ params:
   about:
     enable: true
     title: "A propos"
-    image: "/images/me.png"
+    image: "/images/logo.info.png"
     content: |-
-      Ayant suivi une formation en physiologie (animale et végétale) puis en écologie, j'éprouve un fort intéret dans l'étude et la compréhension des processus biologiques. C'est pourquoi il m'est utile d'utiliser et de maitriser des outils qui me permettent de traiter et de synthétiser des données. 
+      Ayant suivi une formation en physiologie (animale et végétale) puis en écologie, j'éprouve un fort intéret dans l'étude et la compréhension des processus biologiques. 
+      
+      Il m'est donc utile d'utiliser et de maitriser des outils qui me permettent de traiter et de synthétiser des données. 
 
       Je traivail actuellement dans le domaine de l'écophysiologie et plus précisement je participe au projet de recherche Sycomor.
     skills:
       enable: true
-      title: "Domaines de compétence :"
+      title: "Domaines de compétencee"
       items:
+        - "Ecologie"
+        - "Physiologie"
         - "GitHub"
         - "R"
         - "Rmarkdown"
@@ -166,7 +170,7 @@ params:
     title: "Scolarité"
     items:
       - job: "Université d'Orléans"
-        company: "Master Agrosciences parcours Biologie Intégrative et Changements Globaux"
+        company: "Master Agrosciences -  Parcours Biologie Intégrative et Changements Globaux"
         companyUrl: "https://www.univ-orleans.fr/upload/public/2022-02/Master_Agrosciences_Environnement,%20Territoires_Paysage,%20Forêt_BICG_2022_VD.pdf"
         date: "2019- 2021"
         info:
@@ -181,7 +185,7 @@ params:
           - Statistiques
           
       - job: "Université Limoges"
-        company: "Licence Sciences de la Vie et de la Santé - parcours Biologie Cellulaire et Physiologie"
+        company: "Licence Sciences de la Vie et de la Santé - Parcours Biologie Cellulaire et Physiologie"
         companyUrl: "https://www.sciences.unilim.fr/sciences-de-la-vie-et-de-la-terre/biologie-cellulaire-et-physiologie/"
         date: "2015 - 2019"
         info:
@@ -246,7 +250,7 @@ params:
           - Modèles de prédiction
 
         featuredLink:
-          enable: true
+          enable: false
           name: "Mon poster"
           url: "https://example.com"
           
@@ -376,7 +380,7 @@ params:
     title: "Contact"
     content: 
     email: david.chassagnaud@gmail.com
-    btnName: Contactez moi
+    btnName: "Contactez moi par mail"
 
   footer:
     recentPosts:
