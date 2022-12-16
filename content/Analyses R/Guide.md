@@ -1,5 +1,5 @@
 ---
-title: "Guide"
+title: "Media"
 author: "David Chassagnaud"
 date: ''
 output:
@@ -7,9 +7,9 @@ output:
     df_print: paged
 image: /images/post.jpg
 tags:
-- Rich content
-- Sample
-- example
+- Exemples 
+- Blob
+- 
 description: ''
 toc: null
 editor_options:
