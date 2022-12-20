@@ -8,7 +8,7 @@ output:
 image: /images/publi1.png
 ---
 
-📍Environmental and Experimental Botany (2022): 105173.
+📍 Environmental and Experimental Botany (2022): 105173.
 
 *Laure Bouyer, Cécile Vincent-Barbaroux, Isabelle Le Jan, Alain Delaunay, Lorène Marchand , Muriel Feinard-Duranceau, Aurélien Sallé, David Chassagnaud, Têtè Sévérien Barigah, Hervé Cochard, Franck Brignolas, Régis Fichot*
 

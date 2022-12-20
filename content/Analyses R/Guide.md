@@ -18,17 +18,6 @@ editor_options:
 draft: no
 ---
 
-Hugo ships with several [Built-in
-Shortcodes](https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes)
-for rich content, along with a [Privacy
-Config](https://gohugo.io/about/hugo-and-gdpr/) and a set of Simple
-Shortcodes that enable static and no-JS versions of various social media
-embeds.
-
-    {{< embed-pdf url="Users/david/Desktop/test4/themes/hugo-profile/static/auto.pdf" >}}
-
-## Gist Simple Shortcode
-
 ## Tweets Mission alpha
 
 <br> {{< tweet GoHugoIO 1385655068251275269 >}} <br>
