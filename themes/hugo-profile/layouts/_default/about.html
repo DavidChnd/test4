@@ -1,15 +1,7 @@
 {{ define "head" }}
 <meta name="description" content="{{ .Params.description }}">
 <link rel="stylesheet" href="{{.Site.Params.staticPath}}/css/about.css">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6C96QRKFXK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-6C96QRKFXK');
-</script>
 <!-- fontawesome -->
 <script defer src="{{.Site.Params.staticPath}}/fontawesome-5/all-5.15.4.js"></script>
 {{ end }}

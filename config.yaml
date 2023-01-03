@@ -30,8 +30,8 @@ Menus:
       weight: 1
     - identifier: Analyses R
       name: ☰ Analyses R
-      title: Analyses R
-      url: /Analyses R
+      title: ☰  Analyses R
+      url: /☰ Analyses R
       weight: 2
     - identifier: Publications
       name: ☰  Publications
