@@ -21,23 +21,23 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: Galerie
-      name: Galerie
-      title: Blog posts
-      url: /gallery
-      weight: 1
-    - identifier: Analyses R
-      name: ☰ Analyses R
-      title: ☰  Analyses R
-      url: /Analyses R
-      weight: 2
-    - identifier: Publications
-      name: ☰  Publications
-      title: Publications
-      url: /Publications
-      weight: 3
+#Menus:
+#  main:
+#    - identifier: Galerie
+#      name: Galerie
+#      title: Blog posts
+#      url: /gallery
+#      weight: 1
+#    - identifier: Analyses R
+#      name: ☰ Analyses R
+#      title: ☰  Analyses R
+#      url: /Analyses R
+#      weight: 2
+#    - identifier: Publications
+#      name: ☰  Publications
+#      title: Publications
+#      url: /Publications
+#      weight: 3
 
     #Dropdown menu
     # - identifier: dropdown
@@ -302,8 +302,8 @@ params:
         content: 
         image: /images/projects/publi1.png
         featured:
-          name: Voir en détail
-          link: https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=22s9A86kj8nok&launchParam=path%3D%252FDavid%2520Chassagnaud%252FIE%252FARD_SyCoMore_Dossier_complet.pdf
+          name: Accéder à l'article
+          link: https://www.sciencedirect.com/science/article/abs/pii/S0098847222003951
         badges:
           - "Ecophysiologie"
           - "Test de provenance"
@@ -332,35 +332,38 @@ params:
           
     title: "Publications"
     items:
-      - title: Sycomore
-        content: Ce projet...
+      - title: 
+        content: 
         image: /images/projects/publi1.png
         featured:
-          name: Voir en détail
-          link: https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=22s9A86kj8nok&launchParam=path%3D%252FDavid%2520Chassagnaud%252FIE%252FARD_SyCoMore_Dossier_complet.pdf
+          name: Accéder à l'article
+          link: https://www.sciencedirect.com/science/article/abs/pii/S0098847222003951
         badges:
-          - "Ecophysiologie"
-          - "Test de provenance"
-          - "Pin"
+          - "Xylem hydraulic failure"
+          - "Nitrogen"
+          - "Non-structural carbohydrates"
+          - "Populus"
+          - "Tree death"
+          - "Water deficit"
         #links:
-          #- icon: fa fa-envelope
+          #- icon: fa fa-
            # url: mailto:?subject=Hugo%20Profile%20Temp
           
     # achivements
-  achivements:
-    enable: true
-    title: "Réalisations"
-    items:
-      - title: Sycomore
-        content: Ce projet...
-        image: /images/projects/tout-savoir-sur-la-foret.jpg
-        featured:
-          name: Voir en détail
-          link: https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=22s9A86kj8nok&launchParam=path%3D%252FDavid%2520Chassagnaud%252FIE%252FARD_SyCoMore_Dossier_complet.pdf
-        badges:
-          - "Ecophysiologie"
-          - "Test de provenance"
-          - "Pin"
+  #achivements:
+   # enable: true
+    #title: "Réalisations"
+    #items:
+     # - title: Sycomore
+      #  content: Ce projet...
+       # image: /images/projects/tout-savoir-sur-la-foret.jpg
+        #featured:
+         # name: Voir en détail
+          #link: https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=22s9A86kj8nok&launchParam=path%3D%252FDavid%2520Chassagnaud%252FIE%252FARD_SyCoMore_Dossier_complet.pdf
+        #badges:
+         # - "Ecophysiologie"
+          #- "Test de provenance"
+          #- "Pin"
         #links:
           #- icon: fa fa-envelope
            # url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
