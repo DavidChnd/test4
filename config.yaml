@@ -31,7 +31,7 @@ Menus:
     - identifier: Analyses R
       name: ☰ Analyses R
       title: ☰  Analyses R
-      url: /☰ Analyses R
+      url: /Analyses R
       weight: 2
     - identifier: Publications
       name: ☰  Publications
@@ -300,11 +300,11 @@ params:
   # projects
   projects:
     enable: true
-    title: "Projets"
+    title: "Publications"
     items:
-      - title: Sycomore
-        content: Ce projet...
-        image: /images/projects/tout-savoir-sur-la-foret.jpg
+      - title: 
+        content: 
+        image: /images/projects/publi1.png
         featured:
           name: Voir en détail
           link: https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=22s9A86kj8nok&launchParam=path%3D%252FDavid%2520Chassagnaud%252FIE%252FARD_SyCoMore_Dossier_complet.pdf
@@ -334,11 +334,11 @@ params:
          # - icon: fab fa-github
           #  url: https://github.com/gurusabarish/converter
           
-    title: "Projets"
+    title: "Publications"
     items:
       - title: Sycomore
         content: Ce projet...
-        image: /images/projects/tout-savoir-sur-la-foret.jpg
+        image: /images/projects/publi1.png
         featured:
           name: Voir en détail
           link: https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=22s9A86kj8nok&launchParam=path%3D%252FDavid%2520Chassagnaud%252FIE%252FARD_SyCoMore_Dossier_complet.pdf
