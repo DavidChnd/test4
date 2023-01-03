@@ -235,7 +235,7 @@ params:
           - Formation au Li-6400 / Li-6800 
         featuredLink:
           enable: true
-          name: "En savoir + sur le projet *SyCoMore*"
+          name: "En savoir + sur le projet SyCoMore"
           url: "https://drive.google.com/file/d/1aYGbBbT7qYZgC0rrfLH1UeUtqda8Rved/view?usp=sharing"
 
       - title: "Assistant Ingénieur"
