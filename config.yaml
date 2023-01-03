@@ -293,10 +293,6 @@ params:
           url: "https://drive.google.com/file/d/14nUH-PPJON6Z8J8r2HEWdC9SjgvbESuI/view?usp=sharing"
 
 
-
-
-
-
   # projects
   projects:
     enable: true
