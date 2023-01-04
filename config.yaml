@@ -23,7 +23,7 @@ markup:
 
 #Menus:
 #  main:
-#    - identifier: Galerie
+#    - identifier: CV
 #      name: Galerie
 #      title: Blog posts
 #      url: /gallery
@@ -137,7 +137,7 @@ params:
         - icon: fab fa-orcid
           url: https://orcid.org/my-orcid?orcid=0000-0001-7996-8732
         - icon: fa fa-address-card
-          url: https://orcid.org/my-orcid?orcid=0000-0001-7996-8732         
+          url: https://drive.google.com/file/d/1zWfHPYnczwa0HIQdh34IO70zgwNwJSiK/view?usp=sharing         
 
 
       #customIcons:
@@ -344,14 +344,14 @@ params:
     # achivements
   achivements:
     enable: true
-    title: "CV"
+    title: "Curriculum vitæ"
     items:
       - title:
         content:
-        image: /images/projects/tout-savoir-sur-la-foret.jpg
+        image: /images/projects/cv.png
         featured:
-          name: Accéder à mon CV
-          link: https://www.sciencedirect.com/science/article/abs/pii/S0098847222003951
+          name: Visualiser mon CV
+          link: https://drive.google.com/file/d/1zWfHPYnczwa0HIQdh34IO70zgwNwJSiK/view?usp=sharing
         #badges:
          # - "Ecophysiologie"
           #- "Test de provenance"
