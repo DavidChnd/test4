@@ -120,11 +120,11 @@ params:
     subtitle: "Chassagnaud"
     content: "Page personnelle"
     image: /images/IMG_2387.jpeg
-    #button:
-    #enable: true
-    #name: "Resume"
-    #url: "#"
-    #download: true
+    button:
+    enable: true
+    name: "Resume"
+    url: "#"
+    download: true
     newPage: true
     socialLinks:
       fontAwesomeIcons:
@@ -135,7 +135,10 @@ params:
         - icon: fab fa-github
           url: https://github.com/DavidChnd
         - icon: fab fa-orcid
-          url: "https://orcid.org/my-orcid?orcid=0000-0001-7996-8732
+          url: https://orcid.org/my-orcid?orcid=0000-0001-7996-8732
+        - icon: fa fa-address-card
+          url: https://orcid.org/my-orcid?orcid=0000-0001-7996-8732         
+
 
       #customIcons:
        # - icon: fa-regular fa-envelope"
@@ -151,7 +154,7 @@ params:
       
       Il m'est donc utile d'utiliser et de maitriser des outils qui me permettent de traiter et de synthétiser des données. 
 
-      Je traivail actuellement dans le domaine de l'écophysiologie et plus précisement je participe au projet de recherche Sycomor.
+      Je traivaille actuellement dans le domaine de l'écophysiologie et plus précisement je participe au projet de recherche SyCoMor.
     skills:
       enable: true
       title: "Domaine de compétence : "
@@ -339,16 +342,16 @@ params:
           
 
     # achivements
-  #achivements:
-   # enable: true
-    #title: "Réalisations"
-    #items:
-     # - title: Sycomore
-      #  content: Ce projet...
-       # image: /images/projects/tout-savoir-sur-la-foret.jpg
-        #featured:
-         # name: Voir en détail
-          #link: https://arche-quickconnect.fr3.quickconnect.to/?launchApp=SYNO.SDS.PDFViewer.Application&SynoToken=22s9A86kj8nok&launchParam=path%3D%252FDavid%2520Chassagnaud%252FIE%252FARD_SyCoMore_Dossier_complet.pdf
+  achivements:
+    enable: true
+    title: "CV"
+    items:
+      - title:
+        content:
+        image: /images/projects/tout-savoir-sur-la-foret.jpg
+        featured:
+          name: Accéder à mon CV
+          link: https://www.sciencedirect.com/science/article/abs/pii/S0098847222003951
         #badges:
          # - "Ecophysiologie"
           #- "Test de provenance"
@@ -360,6 +363,7 @@ params:
            # url: https://github.com/gurusabarish/hugo-profile
           #- icon: fab fa-twitter
            # url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
 
 
   #Contact
