@@ -59,7 +59,7 @@ markup:
 
 params:
   title: "David Chassagnaud"
-  description: Text about my cool site
+  description: Découvrir ma page personelle
   # staticPath: ""  # The path to serve the static files from
   #favicon: "/fav.png"
 
@@ -232,14 +232,14 @@ params:
           - Test de provenance
           - Pin
           
-          Activities annexes : 
+          Activities annexes :
           
           - Suivi d'une expérimentation en conditions de sécheresse.
           - Formation au Li-6400 / Li-6800 
         featuredLink:
           enable: true
           name: "En savoir + sur le projet SyCoMore"
-          url: "https://drive.google.com/file/d/1aYGbBbT7qYZgC0rrfLH1UeUtqda8Rved/view?usp=sharing"
+          url: "https://cvws.icloud-content.com/B/AQcdC-R6oPJhynKqpsqx2WmpUNWCAdoJHucOpKgTBsc2V4X5ZrFULdHQ/ARD_SyCoMore_Dossier_complet.pdf?o=An01HsKNg85EgLA0ufF97c5g2eWhCvDbzBjq9_pp5Y5Q&v=1&x=3&a=CAog4g_FhtoUxNMNS0Tnimswe1wuXlcXtS1d6VMH7XZX7xgSaxDbvs2v2TAY25upsdkwIgEAUgSpUNWCWgRULdHQaiXLMtnqOA8G1zwzPC1xKYRbMLsvur1gXcB5pAT8k-RKmA617FXRciX0r5eICKNpgE6R7uACxwO6xj0qHpnMgDH2Ur0ick9JifAb6mp5&e=1673261632&fl=&r=fdb6038c-ce1b-4c43-864b-1dbaa3299502-1&k=ZzzvYPySefNFA9BGkYNjdw&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=39&s=7S85sr7-bJnTGCesB3UIeBCChys&cd=i"
 
       - title: "Assistant Ingénieur"
         school:
@@ -348,15 +348,15 @@ params:
     items:
       - title:
         content:
-        image: /images/projects/cv.png
+        image: /images/projects/cv.jpg
         featured:
           name: Visualiser mon CV
           link: https://drive.google.com/file/d/1zWfHPYnczwa0HIQdh34IO70zgwNwJSiK/view?usp=sharing
         #badges:
-         # - "Ecophysiologie"
+          #- "Ecophysiologie"
           #- "Test de provenance"
           #- "Pin"
-        #links:
+        links:
           #- icon: fa fa-envelope
            # url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           #- icon: fab fa-github
