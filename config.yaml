@@ -217,7 +217,7 @@ params:
   # Education
   education:
     enable: true
-    title: "Expérience"
+    title: "Expérience" 
     index: false
     items:
       - title: "Ingénieur d'études"
@@ -294,7 +294,7 @@ params:
         featuredLink:
           enable: true
           name: Accéder à mon poster de M1
-          url: "https://cvws.icloud-content.com/B/AS1unW27olNe6OVGqfAtq8OQtXSjAb_c3v6FPUmjsNaPczC7uAP12S4v/Poster+final+M1+David+Chassagnaud.pdf?o=AqHAdwNJ52mLMjzkHK8dZ7yJtL9GhIYxgF9wffOGCf-B&v=1&x=3&a=CAogKJHZPFyIibydSVYJ_D0c0uugCwYNAwpBq7zk3hYRcQsSaxCPx5uv2TAYj6T3sNkwIgEAUgSQtXSjWgT12S4vaiUQNoCpaVRdVNxhfp822uVm4wPnXyFcTLYINXkmH-oohwQPXvVSciX89VW29ZPk37HLUqgqDzNfPP4F56uHu7EW69M8LzIc7RNfYf6m&e=1673260814&fl=&r=9b51facc-80a9-4f72-a3bf-fedb926ff060-1&k=xLPZx-JNjvmKV5EMybS7qw&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=39&s=giM5FzbfX8svZDxPMGPQDJXv6wk&cd=i"
+          url: "https://www.icloud.com/iclouddrive/088wtRcGwDF7U_Gf_Q4sm99cA#Poster_final_M1_David_Chassagnaud"
 
 
   # projects
