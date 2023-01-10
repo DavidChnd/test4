@@ -111,16 +111,17 @@ params:
       disableProjects: false
       disableAchievements: false
       disableContact: false
+      disableCV: false
   # Hero
   hero:
-    enable: false
+    enable: true
     intro: ""
     title: "David"
     subtitle: "Chassagnaud"
     content: "Page personnelle"
     image: /images/IMG_2387.jpeg
     button:
-    enable: true
+    #enable: true
     name: "Resume"
     url: "#"
     download: true
@@ -175,11 +176,11 @@ params:
         company: "• Master Agrosciences - Parcours Biologie Intégrative et Changements Globaux"
         companyUrl: "https://www.univ-orleans.fr/upload/public/2022-02/Master_Agrosciences_Environnement,%20Territoires_Paysage,%20Forêt_BICG_2022_VD.pdf"
         date: "2019- 2021"
-        info:
-          enable: false
-        featuredLink:
-          enable: false
-          url: ""
+        #info:
+        #enable: false
+        #featuredLink:
+        #enable: false
+          #url: ""
         content: |
           Ce master m'a permit d'acquérir des compétences dans le domaine ...
           
@@ -216,7 +217,7 @@ params:
   # Education
   education:
     enable: true
-    title: "Expérience" 
+    title: "Expérience"
     index: false
     items:
       - title: "Ingénieur d'études"
@@ -293,7 +294,7 @@ params:
         featuredLink:
           enable: true
           name: Accéder à mon poster de M1
-          url: "https://www.icloud.com/iclouddrive/088wtRcGwDF7U_Gf_Q4sm99cA#Poster_final_M1_David_Chassagnaud"
+          url: "https://cvws.icloud-content.com/B/AS1unW27olNe6OVGqfAtq8OQtXSjAb_c3v6FPUmjsNaPczC7uAP12S4v/Poster+final+M1+David+Chassagnaud.pdf?o=AqHAdwNJ52mLMjzkHK8dZ7yJtL9GhIYxgF9wffOGCf-B&v=1&x=3&a=CAogKJHZPFyIibydSVYJ_D0c0uugCwYNAwpBq7zk3hYRcQsSaxCPx5uv2TAYj6T3sNkwIgEAUgSQtXSjWgT12S4vaiUQNoCpaVRdVNxhfp822uVm4wPnXyFcTLYINXkmH-oohwQPXvVSciX89VW29ZPk37HLUqgqDzNfPP4F56uHu7EW69M8LzIc7RNfYf6m&e=1673260814&fl=&r=9b51facc-80a9-4f72-a3bf-fedb926ff060-1&k=xLPZx-JNjvmKV5EMybS7qw&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=39&s=giM5FzbfX8svZDxPMGPQDJXv6wk&cd=i"
 
 
   # projects
@@ -319,10 +320,10 @@ params:
            # url: https://github.com/gurusabarish/converter
           
 
-  # achievements
-  achievements:
+    # achivements
+  achivements:
     enable: true
-    title: "CV"
+    title: "Curriculum vitæ"
     items:
       - title:
         content:
@@ -343,6 +344,7 @@ params:
            # url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
 
+
   #Contact
   contact:
     enable: true
@@ -353,20 +355,20 @@ params:
       Université d’Orléans - INRAE USC 1328
       Rue de Chartres - Orléans 45067  
     email: david.chassagnaud@gmail.com
-    btnName: "Contactez moi par mail"
+    btnName: "Contactez moi par maillllll"
 
   footer:
-    #recentPosts:
-      #path: "blogs"
-      #count: 3
-      #title: Recent Posts
-      #enable: false # permet de ne pas inclure la présentation des récents posts
-      #disableFeaturedImage: false
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: false # permet de ne pas inclure la présentation des récents posts
+      disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/DavidChnd
       linkedin: https://www.linkedin.com/in/davidchassagnaud/
-      #orcid: https://orcid.org/my-orcid?orcid=0000-0001-7996-8732
+      orcid: https://orcid.org/my-orcid?orcid=0000-0001-7996-8732
 
   # List pages like blogs and posts
-  #listPages:
-    #disableFeaturedImage: false
+  listPages:
+    disableFeaturedImage: false
