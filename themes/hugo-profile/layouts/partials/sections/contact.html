@@ -14,6 +14,20 @@
                             {{ .Site.Params.contact.btnName | default "Get in Touch" }}
                         </a>
                     </div>
+                    <form name="contact" netlify>
+                        <p>
+                            
+                        </p>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
                     {{ end }}
                 </div>
             </div>
