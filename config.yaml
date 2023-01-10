@@ -154,7 +154,7 @@ params:
       
       Il m'est donc utile d'utiliser et de maitriser des outils qui me permettent de traiter et de synthétiser des données. 
 
-      Je traivaille actuellement dans le domaine de l'écophysiologie et plus précisement je participe au projet de recherche SyCoMor.
+      Je travaille actuellement dans le domaine de l'écophysiologie et plus précisement je participe au projet de recherche SyCoMor.
     skills:
       enable: true
       title: "Domaine de compétence : "
@@ -280,7 +280,7 @@ params:
           
       - title: "Stage Master 1"
         school:
-          name: "Centre de recherche sur la cognition animale - CNRS"
+          name: "Centre de Recherche sur la Cognition Animale - CNRS"
           url: "https://crca.cbi-toulouse.fr"
         date: "Janvier - Mars 2020"
         Lieu : "Toulouse - France"
@@ -355,7 +355,7 @@ params:
       Université d’Orléans - INRAE USC 1328
       Rue de Chartres - Orléans 45067  
     email: david.chassagnaud@gmail.com
-    btnName: "Contactez moi par maillllll"
+    btnName: "Contactez moi par mail"
 
   footer:
     recentPosts:

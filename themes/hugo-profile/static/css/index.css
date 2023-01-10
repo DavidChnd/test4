@@ -185,7 +185,7 @@ header .navbar.animate {
     width: 0px;
     height: 2px;
     bottom: 0.37em;
-    background-color: var(--red);
+    background-color: var(--primary-color);
     transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
     opacity: 0.5;
 }
