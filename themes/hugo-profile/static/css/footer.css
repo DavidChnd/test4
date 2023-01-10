@@ -69,16 +69,16 @@ footer .card > .card-header .card-img-top {
 
 .fcf-body {
     margin: 0;
-    font-family: -apple-system, Arial, sans-serif;
+    font-family: -apple-system, Times, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: #494E5F;
     text-align: left;
-    background-color: #fff;
+    background-color: #FAEEE6;
     padding: 30px;
     padding-bottom: 10px;
-    border: 1px solid #ced4da;
+    border: 1px solid #FAEEE6;
     border-radius: 0.25rem;
     max-width: 100%;
 }
@@ -107,9 +107,9 @@ footer .card > .card-header .card-img-top {
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
-    background-color: #fff;
+    background-color: #FFF9F5;
     background-clip: padding-box;
-    border: 1px solid #ced4da;
+    border: 1px solid #F1D4C1;
     outline: none;
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -187,20 +187,20 @@ label.fcf-label {
 
 .fcf-btn-primary {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #C99F83;
+    border-color: #C99F83;
 }
 
 .fcf-btn-primary:hover {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: #A47556;
+    border-color: #A47556;
 }
 
 .fcf-btn-primary:focus, .fcf-btn-primary.focus {
     color: #fff;
     background-color: #0069d9;
-    border-color: #0062cc;
+    border-color: #C99F83;
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
