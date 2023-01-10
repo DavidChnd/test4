@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://davidchassagnaud.netlify.app"
 languageCode: "en-us"
 title: "David Chassagnaud"
 theme: hugo-profile
@@ -13,7 +13,7 @@ outputs:
     - "RSS"
     
 Paginate: 3
-disqusShortname: gurusabarish
+disqusShortname: David Chassagnaud
 enableRobotsTXT: true
 
 markup:
@@ -355,7 +355,7 @@ params:
       Université d’Orléans - INRAE USC 1328
       Rue de Chartres - Orléans 45067  
     email: david.chassagnaud@gmail.com
-    btnName: ""
+    btnName: "Contactez moi par mail"
 
   footer:
     recentPosts:
