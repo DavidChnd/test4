@@ -1,6 +1,6 @@
 /* light mode */
 .light > *{
-    background-color: var(--background-color) !important;
+    background-color: var(--red) !important;
     color: var(--text-color) !important;
 }
 

@@ -111,10 +111,9 @@ params:
       disableProjects: false
       disableAchievements: false
       disableContact: false
-      disableCV: false
   # Hero
   hero:
-    enable: true
+    enable: false
     intro: ""
     title: "David"
     subtitle: "Chassagnaud"
@@ -309,27 +308,6 @@ params:
           name: Accéder à l'article
           link: https://www.sciencedirect.com/science/article/abs/pii/S0098847222003951
         badges:
-          - "Ecophysiologie"
-          - "Test de provenance"
-          - "Pin"
-        #links:
-          #- icon: fa fa-envelope
-           # url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          #- icon: fab fa-github
-           # url: https://github.com/gurusabarish/hugo-profile
-          #- icon: fab fa-twitter
-           # url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-
-    title: "Publications"
-    items:
-      - title: 
-        content: 
-        image: /images/projects/publi1.png
-        featured:
-          name: Accéder à l'article
-          link: https://www.sciencedirect.com/science/article/abs/pii/S0098847222003951
-        badges:
           - "Xylem hydraulic failure"
           - "Nitrogen"
           - "Non-structural carbohydrates"
@@ -341,10 +319,10 @@ params:
            # url: https://github.com/gurusabarish/converter
           
 
-    # achivements
-  achivements:
+  # achievements
+  achievements:
     enable: true
-    title: "Curriculum vitæ"
+    title: "CV"
     items:
       - title:
         content:
@@ -365,7 +343,6 @@ params:
            # url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
 
-
   #Contact
   contact:
     enable: true
@@ -379,17 +356,17 @@ params:
     btnName: "Contactez moi par mail"
 
   footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: false # permet de ne pas inclure la présentation des récents posts
-      disableFeaturedImage: false
+    #recentPosts:
+      #path: "blogs"
+      #count: 3
+      #title: Recent Posts
+      #enable: false # permet de ne pas inclure la présentation des récents posts
+      #disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/DavidChnd
       linkedin: https://www.linkedin.com/in/davidchassagnaud/
-      orcid: https://orcid.org/my-orcid?orcid=0000-0001-7996-8732
+      #orcid: https://orcid.org/my-orcid?orcid=0000-0001-7996-8732
 
   # List pages like blogs and posts
-  listPages:
-    disableFeaturedImage: false
+  #listPages:
+    #disableFeaturedImage: false
