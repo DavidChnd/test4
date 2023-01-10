@@ -355,7 +355,7 @@ params:
       Université d’Orléans - INRAE USC 1328
       Rue de Chartres - Orléans 45067  
     email: david.chassagnaud@gmail.com
-    btnName: "Contactez moi par mail"
+    btnName: ""
 
   footer:
     recentPosts:
