@@ -1,4 +1,4 @@
-baseURL: "https://davidchassagnaud.netlify.app"
+#baseURL: ""
 languageCode: "en-us"
 title: "David Chassagnaud"
 theme: hugo-profile
