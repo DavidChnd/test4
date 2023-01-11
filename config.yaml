@@ -176,11 +176,11 @@ params:
         company: "• Master Agrosciences - Parcours Biologie Intégrative et Changements Globaux"
         companyUrl: "https://www.univ-orleans.fr/upload/public/2022-02/Master_Agrosciences_Environnement,%20Territoires_Paysage,%20Forêt_BICG_2022_VD.pdf"
         date: "2019- 2021"
-        #info:
-        #enable: false
-        #featuredLink:
-        #enable: false
-          #url: ""
+        info:
+          enable: false
+        featuredLink:
+          enable: false
+          url: ""
         content: |
           Ce master m'a permit d'acquérir des compétences dans le domaine ...
           
@@ -326,7 +326,7 @@ params:
     items:
       - title: 
         content: 
-        image: /images/projects/cv.jpg
+        image: /images/projects/cv.png
         featured:
           name: Visualiser mon CV
           link: https://drive.google.com/file/d/1zWfHPYnczwa0HIQdh34IO70zgwNwJSiK/view?usp=sharing
