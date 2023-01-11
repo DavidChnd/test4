@@ -1,9 +1,9 @@
-{{ if .Site.Params.achivements.enable | default false }}
-<section id="achivements" class="py-5">
+{{ if .Site.Params.achievements.enable | default false }}
+<section id="achievements" class="py-5">
     <div class="container">
-        <h3 class="text-center">{{ .Site.Params.achivements.title | default "Achivements" }}</h3>
+        <h3 class="text-center">{{ .Site.Params.achievements.title | default "Achievements" }}</h3>
         <div class="row justify-content-center px-3 px-md-5">
-            {{ range .Site.Params.achivements.items }}
+            {{ range .Site.Params.achievements.items }}
             <div class="col-lg-8 col-md-6 my-3">
                 <div class="card my-3 h-100" title="{{ .title }}">
                     <div class="card-head">
@@ -41,7 +41,7 @@
                 </div>
             </div>
             {{ end }}
-            {{ range ( where .Site.RegularPages "Type" "achivements" ) }}
+            {{ range ( where .Site.RegularPages "Type" "achievements" ) }}
             {{ if .Params.showInHome | default true }}
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card my-3 h-100" title="{{ .Title }}">

@@ -8,7 +8,7 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: #F8F2ED;
     text-align: left;
     background-color: #fff;
     padding: 30px;
@@ -111,7 +111,7 @@ label.fcf-label {
 }
 
 .fcf-btn:hover {
-    color: #212529;
+    color: #F8F2ED;
     text-decoration: none;
 }
 

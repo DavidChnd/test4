@@ -22,7 +22,7 @@ header .navbar .navbar-nav a {
     color: var(--text-color);
 }
 .navbar-toggler:focus {
-    box-shadow: 0 0 0 .05em;
+    box-shadow: 0px 8px 56px;
 }
 .navbar-text {
     font-size: 16px !important;
